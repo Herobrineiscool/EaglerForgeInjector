@@ -25,7 +25,7 @@ async function shronk(input) {
     let isHtml = true;
     let inputHtml = input;
 
-    // Check if the input is raw JavaScript
+    // Check if the input is raw mcaddon
     if (!input.trim().startsWith('<')) {
         isHtml = false;
         inputHtml = `<script>${input}</script>`;
