@@ -40,7 +40,7 @@
       </table>
 
       <div class="controls">
-        <button class="button" onclick="window.modapi_uploadmod()">Upload Mod (.js)</button>
+        <button class="button" onclick="window.modapi_uploadmod()">Upload Mod (.mcaddon)</button>
         <button class="button" onclick="window.modapi_addmod()">Add Mod From URL</button>
         <button class="button" style="text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5)" onclick="window.modapi_clearmods()">Clear All Mods</button>
         <button class="button _doneButton" onclick="this.parentElement.parentElement.remove();">Done</button>
