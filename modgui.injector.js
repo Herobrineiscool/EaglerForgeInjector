@@ -284,7 +284,7 @@ globalThis.modapi_guikit = `// ModAPI GUI made by TheIdiotPlays
   window.modapi_uploadmod = async () => {
     var f = document.createElement("input");
     f.type = "file";
-    f.accept = "text/javascript";
+    f.accept = "text/mcaddon";
     f.multiple = true;
     f.addEventListener("input", async () => {
       if (f.files.length < 1) {
